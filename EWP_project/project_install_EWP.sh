@@ -43,4 +43,4 @@ sh create_work_env_wrapper_EWP.sh
 sh create_EWP_wrapperenv.sh
 
 #start the service of EWP
-#sh EWP_service.sh start
+sh EWP_service.sh start

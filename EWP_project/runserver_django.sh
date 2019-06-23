@@ -24,8 +24,8 @@ trap 'exit_int'                INT
 write_log "INFO" "remote-Test:start runserver for project:remote_sys.Begin--------------------------"
 
 
-PROJECT_PATH="/home/download-dir/remote_project/remote_test/"
-env_project="env-remote"
+PROJECT_PATH="/home/download-dir/Easy_OMS/"
+env_project="env-EWP"
 is_work=1
 # 判断是否有两个参数： 项目名：启动端口
 if [ $# != "2" ]

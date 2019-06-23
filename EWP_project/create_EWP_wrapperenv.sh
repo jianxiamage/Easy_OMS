@@ -57,6 +57,6 @@ echo "from django.contrib.auth.models import User; User.objects.filter(email='ad
 
 #启动web服务
 cd /home/download-dir/Easy_OMS/EWP_OMS
-#python manage.py runserver 0.0.0.0:8000 --insecure
-python manage.py runserver 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000 --insecure
+#python manage.py runserver 0.0.0.0:8000
 

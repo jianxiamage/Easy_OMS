@@ -25,7 +25,7 @@ write_log "INFO" "remote-Test:project install.Begin---------------------------"
 
 pushd .
 
-cd /home/download-dir/EWP_project
+cd /home/download-dir/Easy_OMS/EWP_project
 
 chmod +x *.sh
 chmod +x *.py

@@ -27,7 +27,7 @@ write_log "INFO" "remote-Test:create database.Begin---------------------------"
 HOSTNAME="127.0.0.1"
 PORT="3306"
 USERNAME="admin"
-PASSWORD="abc@12"
+PASSWORD="abc@123"
 
 DBNAME="ewp_oms"
 TABLENAME="test_table_test"

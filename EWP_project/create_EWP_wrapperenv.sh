@@ -35,11 +35,12 @@ echo 'change to virtualenv:env-remote'
 echo ---------------------------------
 workon env-EWP
 
-cd /home/download-dir/EWP_OMS
+cd /home/download-dir/Easy_OMS/EWP_OMS
 
 #install mariadb driver
 echo 'installing mariadb driver...'
 pip install MySQL-python
+pip install svn
 
 #install packages required for the current project
 #pip install -r packages.txt
@@ -55,7 +56,7 @@ python manage.py migrate
 echo "from django.contrib.auth.models import User; User.objects.filter(email='admin@example.com').delete(); User.objects.create_superuser('admin', 'admin@example.com', 'loongson')" | python manage.py shell
 
 #启动web服务
-cd /home/download-dir/EWP_OMS
+cd /home/download-dir/Easy_OMS/EWP_OMS
 #python manage.py runserver 0.0.0.0:8000 --insecure
 python manage.py runserver 0.0.0.0:8000
 

@@ -37,6 +37,7 @@ sleep 1
 echo 'Modifying the password...';
 pwd='abc@123'
 mysql -uroot -e "UPDATE mysql.user SET password=PASSWORD('${pwd}') WHERE user='admin'";
+mysql -uroot -e "Delete FROM mysql.user Where user='' and host='localhost';";
 
 mysql -uroot -e "FLUSH PRIVILEGES";
 
